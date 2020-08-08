@@ -1,0 +1,65 @@
+.header .cover {
+  height: 220px;
+  background-image: url(../src/IMG_20200705_215641.jpg);
+  background-size: cover;
+  /* background-attachment: scroll; */
+  background-position: center 78%;
+  background-repeat: no-repeat;
+}
+
+.header .shadower {
+  height: 60px; /* this will bring problems */
+  /* background-color: red; */
+  box-shadow: 0px -60px 30px black;
+}
+
+.dark-filter {
+  height: 220px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.658);
+  position: absolute;
+  top: 0;
+  z-index: 10;
+}
+
+.profile-data {
+  /* background-color: green; */
+  display: flex;
+  width: 90%;
+  /* height */
+  /* height : 200px; */
+  position: absolute;
+  top: 100px;
+  z-index: 12;
+  padding-left: 25px;
+}
+
+.profile-data .picture-container {
+  /* background-color: red; */
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border-radius: 250px;
+  /* padding-bottom: 20px; */
+  border: solid 3px #f1f1f1;
+}
+
+.profile-picture {
+  width: 150px;
+}
+
+.profile-text {
+  padding-top: 40px;
+  padding-left: 40px;
+  width: calc(100% - 300px);
+}
+
+.profile-text .name {
+  font-size: 3.4vw;
+}
+
+.profile-text .description {
+  font-size: 1.6vw;
+  font-weight: normal;
+  width: 80%;
+}

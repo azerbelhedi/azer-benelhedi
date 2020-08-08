@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* font-family: monospace; */
+  font-family: "Courier New", Courier, monospace;
+  background-color: black;
+  color: #f1f1f1;
+  /* height: auto; */
+}
+
+html {
+  scrollbar-color: #111111 #00000000;
+  scroll-behavior: smooth;
+}
