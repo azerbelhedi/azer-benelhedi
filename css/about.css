@@ -1,0 +1,15 @@
+.std-section {
+  padding-left: 70px;
+  padding-top: 100px;
+  padding-bottom: 15px;
+}
+
+.std-section h1 {
+  margin-bottom: 15px;
+  font-size: 40px;
+}
+
+.about-section p {
+  width: 80%;
+  font-size: 18px;
+}

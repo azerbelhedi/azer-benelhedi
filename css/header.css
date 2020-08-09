@@ -31,7 +31,7 @@
   position: absolute;
   top: 100px;
   z-index: 12;
-  padding-left: 25px;
+  padding-left: 50px;
 }
 
 .profile-data .picture-container {
@@ -49,7 +49,7 @@
 }
 
 .profile-text {
-  padding-top: 40px;
+  padding-top: 25px;
   padding-left: 40px;
   width: calc(100% - 300px);
 }

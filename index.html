@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="./css/index.css">
     <link rel="stylesheet" href="./css/header.css">
     <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/about.css">
+    <link rel="stylesheet" href="./css/skills.css">
     <title>Azer Benelhedi</title>
 </head>
 
@@ -31,41 +33,274 @@
             </div>
         </div>
     </header>
-    <nav class="navbar" id = "navbar">
+    <nav class="navbar" id="navbar">
         <ul>
-            <li>
+            <li id="about-nav-item">
                 <a href="#about">About</a>
+                <div class="line-container">
+                    <div class="line"></div>
+                </div>
             </li>
-            <li>
+            <li id="skills-nav-item">
                 <a href="#skills">Skills</a>
+                <div class="line-container">
+                    <div class="line"></div>
+                </div>
             </li>
-            <li>
+            <li id="projects-nav-item">
                 <a href="#projects">Projects</a>
+                <div class="line-container">
+                    <div class="line"></div>
+                </div>
             </li>
-            <li>
+            <li id="experience-nav-item">
                 <a href="#experience">Experience</a>
+                <div class="line-container">
+                    <div class="line"></div>
+                </div>
             </li>
-            <li>
+            <li id="education-nav-item">
                 <a href="#Education">Education</a>
+                <div class="line-container">
+                    <div class="line"></div>
+                </div>
             </li>
-            <li>
+            <li id="contact-nav-item">
                 <a href="#contact">Contact</a>
+                <div class="line-container">
+                    <div class="line"></div>
+                </div>
+            </li>
+            <li id="contact-nav-item">
+                <a href="#blog">Blog</a>
+                <div class="line-container">
+                    <div class="line"></div>
+                </div>
             </li>
         </ul>
     </nav>
-    <div style="width : min-content">
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Debitis voluptas vitae ex impedit tempora nostrum
-        praesentium dolorem maiores laboriosam officia, consequatur deleniti ducimus, inventore perspiciatis similique
-        deserunt laudantium reprehenderit harum repudiandae corrupti minima? Nesciunt, libero deserunt autem perferendis
-        voluptatum excepturi, reiciendis mollitia fuga nisi, distinctio totam. Placeat maiores dolore totam cupiditate
-        sapiente vero ea laborum similique. Vitae dicta eveniet necessitatibus quibusdam modi ad saepe ex reprehenderit
-        consequuntur neque obcaecati accusantium, eligendi ipsa ab. Obcaecati tenetur repudiandae, doloremque dolore ab,
-        nemo architecto corporis quia assumenda modi, excepturi minima sequi error dolores asperiores. Veniam harum
-        adipisci quam odio earum eligendi officia, dicta quasi optio voluptas recusandae unde eos totam iure, enim
-        pariatur impedit error deleniti ex blanditiis non. Totam libero dignissimos eos dolore rerum? Iure atque
-        dignissimos quidem nesciunt, et quia sunt dicta iusto debitis assumenda iste molestias consequatur voluptatem,
-        ex dolores in velit? Atque eos minima alias mollitia ex velit voluptatum?
-    </div>
+    <section class="about-section std-section" id="about">
+        <h1>About</h1>
+        <p> I call myself a programmer. I do currently web development but I went through some other fields other than
+            the
+            web. I
+            used to spend time on competitive programming, writing low level code with c/c++. I've already got my hands
+            on Arduino UNO and PIC 16-f series as well.
+            <br>
+            <br>
+            I like physics, space, rockets and some certain universes (but not all of them). I like to question things
+            at
+            its
+            core and get to know the details. I like efficiency, actually I am obsessed with efficiency and I am always
+            ready to argue about it for days. I like automation and making processes as repetitive and modular as
+            possible.
+            <br>
+            <br>
+            I don't practice sport much, but I really like cycling and running in the nature, away from everything. I used to
+            do weekly 40 KM cycling trips. I hope soon I get back to that routine. </p>
+    </section>
+
+    <section class="skills-section std-section" id="skills">
+        <h1>
+            Skills
+        </h1>
+        <div class="skills-sections-grid">
+            <div class="skills-group-container">
+                <h2>Web Development</h2>
+                <div class="skills-container">
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            React
+                        </div>
+                        <div class="arc arc-3"></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            Apollo
+                        </div>
+                        <div class="arc arc-2"></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            JavaScript
+                        </div>
+                        <div class="arc arc-3"></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            Firebase
+                        </div>
+                        <div class="arc arc-2"></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            CSS
+                        </div>
+                        <div class="arc arc-4"></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            HTML
+                        </div>
+                        <div class="arc arc-4"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-group-container">
+                <h2>Programming Languages</h2>
+                <div class="skills-container">
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            JavaScript
+                        </div>
+                        <div class="arc arc-3"></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            C/C++
+                        </div>
+                        <div class="arc arc-2"></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            Python
+                        </div>
+                        <div class="arc arc-1"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-group-container">
+                <h2>Tools and Version Control</h2>
+                <div class="skills-container">
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            GIT
+                        </div>
+                        <div class="arc arc-3"></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            Gitlab
+                        </div>
+                        <div class="arc arc-2"></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            Draw.io
+                        </div>
+                        <div class="arc arc-2"></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            Figma UI
+                        </div>
+                        <div class="arc arc-3"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-group-container">
+                <h2>Office, Communication and Management</h2>
+                <div class="skills-container">
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            G Suite
+                        </div>
+                        <div class="arc arc-3"></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            Slack
+                        </div>
+                        <div class="arc arc-3"></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            Trello
+                        </div>
+                        <div class="arc arc-3"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-group-container">
+                <h2>Other Skills and Stoftwares</h2>
+                <div class="skills-container">
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            Arduino
+                        </div>
+                        <div class="arc arc-1"></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            Proteus
+                        </div>
+                        <div class="arc arc-2"></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            Solidworks
+                        </div>
+                        <div class="arc arc-1"></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            Ubuntu
+                        </div>
+                        <div class="arc arc-3"></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            Kdnlive
+                        </div>
+                        <div class="arc arc-2"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-group-container">
+                <h2>Languages</h2>
+                <div class="skills-container">
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            Arabic
+                        </div>
+                        <div class="arc arc-4"></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            German
+                        </div>
+                        <div class="arc arc-2"></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            English
+                        </div>
+                        <div class="arc arc-2"></div>
+                    </div>
+                    <div class="skill-item">
+                        <div class="skill-name">
+                            French
+                        </div>
+                        <div class="arc arc-1"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <section class="projects-section std-section" id="projects">
+
+    </section>
+
+
+
 </body>
 <script src="js/main.js"></script>
 
