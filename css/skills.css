@@ -88,3 +88,98 @@
 }
 
 /* starting the big changes hold on*/
+
+@media only screen and (max-width: 1087px) {
+  .skills-container .skill-item {
+    width: 80px;
+    height: 80px;
+    margin: 15px;
+    margin-left: 0;
+    border-radius: 100%;
+    background-color: #000000;
+    border: solid 3px #111111;
+    /* border-color: yellow green blue pink; */
+    /* transform: rotate(45deg); */
+
+    /* background-color: blue; */
+  }
+  .skills-container .arc {
+    width: 80px;
+    height: 80px;
+    margin: 10px;
+    border-radius: 100%;
+    /* background-color: #111111; */
+    /* border: solid 7px #111111; */
+    transform: rotate(45deg);
+    position: relative;
+    bottom: 30px;
+    right: 13px;
+    /* border-color: yellow green blue #fb5046; */
+  }
+
+  .skills-container .skill-name {
+    /* background-color: green; */
+    color: #fb5046;
+    width: max-content;
+    font-size: 13px;
+    /* font-weight: lighter; */
+    /* height: 20px; */
+    font-weight: normal;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: auto;
+  }
+
+  arc-1 {
+    border: solid 3px #111111;
+    border-color: transparent transparent transparent #fb5046;
+  }
+
+  .arc-2 {
+    border: solid 3px #111111;
+    border-color: transparent transparent #fb5046 #fb5046;
+  }
+
+  .arc-3 {
+    border: solid 3px #111111;
+    border-color: transparent #fb5046 #fb5046 #fb5046;
+  }
+
+  .arc-4 {
+    border: solid 3px #111111;
+    border-color: #fb5046 #fb5046 #fb5046 #fb5046;
+  }
+
+  .skills-group-container h2 {
+    opacity: 0.8;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 753px) {
+  .skills-group-container {
+    margin-bottom: 25px;
+    /* background-color: blue; */
+    width: 85%;
+    /* margin-left: 15px; */
+  }
+  .skills-container {
+    display: flex;
+    /* background-color: red; */
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .skills-group-container h2 {
+    opacity: 0.8;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    width: max-content;
+  }
+}

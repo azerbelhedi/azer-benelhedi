@@ -32,43 +32,48 @@
                 <h2 class="description">
                     Fontend Web Developer, Future Computational Engineering Science Student at RWTH Aachen.
                 </h2>
+                <center>
+                    <h2 class="phone-description">
+                        Fontend Web Developer, Future Computational Engineering Science Student at RWTH Aachen.
+                    </h2>
+                </center>
             </div>
         </div>
     </header>
     <nav class="navbar" id="navbar">
-        <ul>
+        <ul class="nav-list" id="nav-list">
             <li id="about-nav-item">
-                <a href="#about">About</a>
+                <a href="#about" onclick="toggleMenu()">About</a>
                 <div class="line-container">
                     <div class="line"></div>
                 </div>
             </li>
             <li id="skills-nav-item">
-                <a href="#skills">Skills</a>
+                <a href="#skills" onclick="toggleMenu()">Skills</a>
                 <div class="line-container">
                     <div class="line"></div>
                 </div>
             </li>
             <li id="projects-nav-item">
-                <a href="#projects">Projects</a>
+                <a href="#projects" onclick="toggleMenu()">Projects</a>
                 <div class="line-container">
                     <div class="line"></div>
                 </div>
             </li>
             <li id="experience-nav-item">
-                <a href="#experience">Experience</a>
+                <a href="#experience" onclick="toggleMenu()">Experience</a>
                 <div class="line-container">
                     <div class="line"></div>
                 </div>
             </li>
             <li id="education-nav-item">
-                <a href="#education">Education</a>
+                <a href="#education" onclick="toggleMenu()">Education</a>
                 <div class="line-container">
                     <div class="line"></div>
                 </div>
             </li>
             <li id="contact-nav-item">
-                <a href="#contact">Contact</a>
+                <a href="#contact" onclick="toggleMenu()">Contact</a>
                 <div class="line-container">
                     <div class="line"></div>
                 </div>
@@ -80,6 +85,7 @@
                 </div>
             </li> -->
         </ul>
+        <div onclick="toggleMenu()" id="menu-button" class="menu-button menu-button-open"></div>
     </nav>
     <section class="about-section std-section" id="about">
         <center>
@@ -209,7 +215,7 @@
             </div>
 
             <div class="skills-group-container">
-                <h2>Office, Communication and Management</h2>
+                <h2>Office and Communication</h2>
                 <div class="skills-container">
                     <div class="skill-item">
                         <div class="skill-name">
@@ -233,7 +239,7 @@
             </div>
 
             <div class="skills-group-container">
-                <h2>Other Skills and Stoftwares</h2>
+                <h2>Other Skills</h2>
                 <div class="skills-container">
                     <div class="skill-item">
                         <div class="skill-name">
@@ -335,9 +341,7 @@
                     <div class="project-footer">
                         <hr>
                         <div class="links">
-                            <a>Code is private</a>
-                            <a href="https://www.pepper.tn" target="_blanck">Platform under construction
-                            </a>
+                            <a href="https://www.pepper.tn" target="_blanck">Platform</a>
                         </div>
                     </div>
                 </div>
@@ -374,7 +378,6 @@
                     <div class="project-footer">
                         <hr>
                         <div class="links">
-                            <a>Code is Private</a>
                             <a href="https://ktebi-fbee4.firebaseapp.com/" target="_blanck">Website</a>
                         </div>
                     </div>
@@ -530,7 +533,6 @@
                     <div class="project-footer">
                         <hr>
                         <div class="links">
-                            <a>Code Not Available </a>
                             <a href="https://drive.google.com/file/d/1ElppkDiLun_6rv3vvq4TNkmgiLo7fUTV/view"
                                 target="_blanck">Picture</a>
                         </div>
@@ -558,7 +560,6 @@
                         <hr>
                         <div class="links">
                             <a href="https://github.com/azerbelhedi/jarvis " target="_blanck">Code</a>
-                            <a>No Website</a>
                         </div>
                     </div>
                 </div>
@@ -601,7 +602,7 @@
                     <div class="project-footer">
                         <hr>
                         <div class="links">
-                            <a href="https://gomycode.tn/" target="_blanck">Vist Company</a>
+                            <a href="https://gomycode.tn/" target="_blanck"> Company</a>
                         </div>
                     </div>
                 </div>
@@ -639,7 +640,7 @@
                     <div class="project-footer">
                         <hr>
                         <div class="links">
-                            <a href="https://www.rwth-aachen.de/go/id/bixo?lidx=1" target="_blanck">Vist Course</a>
+                            <a href="https://www.rwth-aachen.de/go/id/bixo?lidx=1" target="_blanck"> Course</a>
                         </div>
                     </div>
                 </div>
@@ -675,7 +676,7 @@
                     <div class="project-footer">
                         <hr>
                         <div class="links">
-                            <a href="https://gomycode.tn/" target="_blanck">Vist School</a>
+                            <a href="https://gomycode.tn/" target="_blanck"> School</a>
                         </div>
                     </div>
                 </div>
@@ -705,7 +706,7 @@
                     <div class="project-footer">
                         <hr>
                         <div class="links">
-                            <a>No Link</a>
+                            <a>No Links</a>
                         </div>
                     </div>
                 </div>
@@ -762,5 +763,6 @@
 
 </body>
 <script src="js/main.js"></script>
+<script src="./js/nav.js"></script>
 
 </html>

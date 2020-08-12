@@ -7,6 +7,14 @@
   background-repeat: no-repeat;
 }
 
+.phone-description {
+  /* background-color: red; */
+  width : 80vw;
+  font-size: 3.7vw;
+  font-weight: normal;
+  display: none;
+}
+
 .header .shadower {
   height: 60px; /* this will bring problems */
   /* background-color: red; */
@@ -62,4 +70,83 @@
   font-size: 1.6vw;
   font-weight: normal;
   width: 80%;
+}
+
+@media only screen and (max-width: 1108px) {
+  .profile-data {
+    width: 100%;
+  }
+
+  .profile-text {
+    padding-top: 25px;
+    padding-left: 40px;
+    width: calc(100% - 300px);
+  }
+
+  .profile-text .name {
+    font-size: 4.4vw;
+  }
+
+  .profile-text .description {
+    font-size: 2vw;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 802px) {
+  .profile-text {
+    padding-top: 25px;
+    padding-left: 40px;
+    width: calc(100% - 300px);
+  }
+
+  .profile-text .name {
+    font-size: 4.7vw;
+  }
+
+  .profile-text .description {
+    font-size: 2.7vw;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 592px) {
+  .profile-text {
+    padding-top: 35px;
+    padding-left: 0px;
+    width: calc(100%);
+  }
+
+  .profile-text .name {
+    font-size: 5.2vw;
+    width: max-content;
+    margin: auto;
+  }
+
+  .profile-text .description {
+    font-size: 2.8vw;
+    width: 80%;
+    /* margin: auto; */
+    display: none;
+  }
+
+  .phone-description {
+    display: inline !important;
+  }
+
+  .profile-data {
+    /* background-color: green; */
+    display: block;
+    width: 100%;
+    /* height */
+    /* height : 200px; */
+    position: absolute;
+    top: 80px;
+    z-index: 12;
+    padding-left: 0px;
+  }
+
+  .profile-data .picture-container {
+    margin: auto;
+  }
 }
