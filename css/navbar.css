@@ -95,7 +95,7 @@
   position: fixed;
   top: 0;
   right: 0;
-  background-size: 60%;
+  background-size: 45%;
   background-repeat: no-repeat;
   background-position: center;
   display: none;
@@ -108,7 +108,7 @@
 
 .menu-button-close {
   background-image: url(../src/close.svg);
-  background-size: 40%;
+  background-size: 30%;
 }
 
 .menu-button:hover {
@@ -128,10 +128,16 @@
     flex-wrap: wrap;
     background-color: rgba(0, 0, 0, 0.836);
     flex-direction: column;
-    justify-content: center;
+    /* justify-content: center; */
     /* display: none !important; */
     visibility: hidden;
     opacity: 0;
+    padding-top: 45px;
+  }
+
+  .navbar ul {
+    display: flex;
+    justify-content: flex-start !important;
   }
 
   .navbar li {
@@ -143,6 +149,8 @@
     /* width : 80%; */
     width: max-content;
     margin: auto;
+    /* background-color : red; */
+    margin: 15px auto;
   }
 
   .navbar a {
