@@ -131,7 +131,7 @@
     margin: auto;
   }
 
-  arc-1 {
+  .arc-1 {
     border: solid 3px #111111;
     border-color: transparent transparent transparent #fb5046;
   }
